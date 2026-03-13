@@ -9,7 +9,7 @@
 #include "fujinet-bus.h"
 
 // Compile-specific functions
-#include "fujinet-compiler.h"
+#include "fc_conio.h"
 
 // TODO: this header file needs more documentation
 

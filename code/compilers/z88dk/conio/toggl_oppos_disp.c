@@ -1,7 +1,7 @@
 #include <conio.h>
-#include "fujinet-compiler.h"
+#include "fc_conio.h"
 
-unsigned char fc_revers(unsigned char onoff) {
+unsigned char toggl_oppos_disp(unsigned char onoff) {
     //return revers(onoff);
 
     // Ignore, for now.  Many z80 machines does

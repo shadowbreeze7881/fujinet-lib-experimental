@@ -1,7 +1,7 @@
 #include <conio.h>
-#include "fujinet-compiler.h"
+#include "fc_conio.h"
 
-void fc_gotox(unsigned char x)
+void set_crsr_at_x(unsigned char x)
 {
     unsigned char y;
 
