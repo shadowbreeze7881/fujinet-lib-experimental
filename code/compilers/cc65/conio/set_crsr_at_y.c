@@ -3,5 +3,5 @@
 
 void set_crsr_at_y(unsigned char y)
 {
-    goto_y(y);
+    gotoy(y);
 }
