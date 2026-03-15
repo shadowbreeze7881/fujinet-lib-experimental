@@ -11,8 +11,8 @@ PLATFORMS += adam
 
 # SRC_DIRS may use the literal %PLATFORM% token.
 # It expands to the chosen PLATFORM plus any of its combos.
-SRC_DIRS = common bus/%PLATFORM% code/compilers/$(COMPILER)/base 
-INCLUDE_DIRS = include include/%PLATFORM% bus/%PLATFORM%/include code/compilers/$(COMPILER)/include
+SRC_DIRS = common bus/%PLATFORM% compilers/$(COMPILER)/common/** compilers/$(COMPILER)/platforms/**
+INCLUDE_DIRS = include include/%PLATFORM% bus/%PLATFORM%/include compilers/$(COMPILER)/platforms/%PLATFORM%/include
 CFLAGS = -DBUILD_$(PLATFORM_UC)
 
 include makefiles/toplevel-rules.mk
